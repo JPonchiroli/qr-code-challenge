@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins';
+    background-color: #D6E2F0;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cartaoQR {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.QR {
+    width: 300px;
+    border-radius: 15px;
+}
+
+main h3 {
+    color: #1F3251;
+    text-align: center;
+}
+
+main p {
+    color: #7B879D;
+    text-align: center;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0px;
+    left: 490px;
+    font-size: small;
+}
